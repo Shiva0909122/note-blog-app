@@ -59,12 +59,30 @@ header h1 {
 }
 
 form {
-    width: 500px;
-    margin: 50px 16px 30px;
-    padding: 15px;
+    width: 90%;  /* Already responsive, covers 90% of the parent container */
+    max-width: 600px;  /* Optional: Limits form width on larger screens */
+    margin: 5% auto;  /* Center the form and provide vertical spacing */
+    padding: 2%;  /* Relative padding for different screen sizes */
     box-shadow: 0 1px 5px rgba(100, 100, 100, 0.5);
     animation: fadeIn 1.2s ease-in-out;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    form {
+        width: 95%;  /* Use more screen width on smaller devices */
+        padding: 4%;  /* Increase padding for better spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 100%;  /* Full width for very small screens */
+        margin: 10% auto;  /* More margin on top for smaller screens */
+        padding: 5%;  /* Increase padding */
+    }
+}
+
 
 form input,
 form textarea {
@@ -111,12 +129,7 @@ form button:hover {
 }
 
 /* Responsive design for smaller screens */
-@media (max-width: 600px) {
-    .count-container {
-        font-size: 14px;
-        text-align: center;
-    }
-}
+
 
 /* Animations */
 
