@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    font-family:"Inter", "Geist";
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 
 header h1 {
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     text-align: center;
     padding: 20px 10px;
     animation: slideInFromTop 1.2s ease-out;
