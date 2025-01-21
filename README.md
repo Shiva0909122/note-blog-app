@@ -1,6 +1,9 @@
-# Note Blog App `https://note-blog-app.onrender.com/`
+# Note Blog App 
 
 A simple and intuitive web application to create, edit, and manage personal notes efficiently. The app provides an interactive interface with real-time word and character count updates.
+## Live
+1. `https://note-blog-app.onrender.com/`
+2. `https://note-blog-app.netlify.app/`
 
 ## 🚀 Features
 
