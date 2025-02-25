@@ -1,0 +1,3 @@
+[submodule "Projects/note-blog-app"]
+	path = Projects/note-blog-app
+	url = https://github.com/Shiva0909122/note-blog-app.git
